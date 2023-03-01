@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat</title>
+</head>
+
+<body>
+  <div class="login-box container">
+    <h2>Login</h2>
+    <form class="login-box__form">
+      <div class="user-box">
+        <input type="text" class="user-box__input" name="Username" autocomplete="off" spellcheck="false">
+        <div class="tooltip hidden" role="tooltip">
+          <div class="tooltip__arrow" data-popper-arrow></div>
+        </div>
+        <label for="Username" class="user-box__input-label">Username</label>
+      </div>
+      <button class="btn" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+      </button>
+    </form>
+  </div>
+  <div class="chat-widget hidden">
+    <div class="usernames-box container">
+      <ul class="usernames-box__list">
+        <li class="usernames-box__item">алывфоавыавфыаыф</li>
+        <li class="usernames-box__item">fsdaf</li>
+        <li class="usernames-box__item">fsdaf</li>
+      </ul>
+    </div>
+    <div class="chat-box container">
+      <div class="chat-box__chat chat">
+        <div class="chat__message chat__message_users">
+          <span class="chat__message-meta chat__message-meta_color_orange">3487489</span>
+          <p class="chat__message-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+            тексты. Переписали жизни, моей одна меня дал букв своего пустился алфавит мир по всей жаренные, себя что!
+            Рекламных залетают города пояс ipsum.</p>
+        </div>
+        <div class="chat__message">
+          <span class="chat__message-meta">3487489</span>
+          <p class="chat__message-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+            тексты. Переписали жизни, моей одна меня дал букв своего пустился алфавит мир по всей жаренные, себя что!
+            Рекламных залетают города пояс ipsum.</p>
+        </div>
+      </div>
+      <textarea class="chat__input" maxlength="350"></textarea>
+      <button class="btn" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Send
+      </button>
+    </div>
+
+  </div>
+  <div class="loader-box hidden">
+    <div class="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+
+</html>
