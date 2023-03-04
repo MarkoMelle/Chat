@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Chat</title>
 </head>
-
 <body>
   <div class="login-box container">
     <h2>Login</h2>
@@ -19,48 +18,40 @@
         </div>
         <label for="Username" class="user-box__input-label">Username</label>
       </div>
-      <button class="btn" type="button">
+      <button class="btn" type="submit">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        Submit
+        Войти
       </button>
     </form>
   </div>
   <div class="chat-widget hidden">
+    <div class="logout-box">
+    <button class="logout-btn btn" type="button">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Выйти
+    </button></div>
     <div class="usernames-box container">
       <ul class="usernames-box__list">
-        <li class="usernames-box__item">алывфоавыавфыаыф</li>
-        <li class="usernames-box__item">fsdaf</li>
-        <li class="usernames-box__item">fsdaf</li>
       </ul>
     </div>
     <div class="chat-box container">
-      <div class="chat-box__chat chat">
-        <div class="chat__message chat__message_users">
-          <span class="chat__message-meta chat__message-meta_color_orange">3487489</span>
-          <p class="chat__message-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
-            тексты. Переписали жизни, моей одна меня дал букв своего пустился алфавит мир по всей жаренные, себя что!
-            Рекламных залетают города пояс ipsum.</p>
-        </div>
-        <div class="chat__message">
-          <span class="chat__message-meta">3487489</span>
-          <p class="chat__message-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
-            тексты. Переписали жизни, моей одна меня дал букв своего пустился алфавит мир по всей жаренные, себя что!
-            Рекламных залетают города пояс ipsum.</p>
-        </div>
+      <div class="chat-box__messages chat">
       </div>
       <textarea class="chat__input" maxlength="350"></textarea>
-      <button class="btn" type="button">
+      <button class="chat_submit-btn btn" type="button">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        Send
+        Отправить
       </button>
     </div>
-
   </div>
   <div class="loader-box hidden">
     <div class="loader">
@@ -71,6 +62,7 @@
       <div></div>
     </div>
   </div>
+  <div class="banner-box hidden">
+  </div>
 </body>
-
 </html>

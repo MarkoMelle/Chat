@@ -93,20 +93,32 @@
 }
 
 .loader-box {
+   display: flex;
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   width: 200px;
-   height: 200px;
-   display: inline-block;
+   width: 100vw;
+   height: 100vh;
    overflow: hidden;
-   background: rgba(NaN, NaN, NaN, 0);
+}
+
+.loader-box::before {
+   content: '';
+   top: 0;
+   left: 0;
+   position: absolute;
+   z-index: 999;
+   width: 100vw;
+   height: 100vh;
+   background: linear-gradient(#141e30, #243b55);
 }
 
 .loader {
-   width: 100%;
-   height: 100%;
+   margin: auto auto;
+   z-index: 1000;
+   width: 200px;
+   height: 200px;
    position: relative;
    transform: translateZ(0) scale(1);
    backface-visibility: hidden;

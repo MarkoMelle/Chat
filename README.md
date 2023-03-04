@@ -1,1 +1,1 @@
-[![to do](https://github.com/MarkoMelle/ToDo-witch-fetch-request/actions/workflows/main.yml/badge.svg)](https://github.com/MarkoMelle/ToDo-witch-fetch-request/actions/workflows/main.yml)
+[![Chat](https://github.com/MarkoMelle/Chat/actions/workflows/main.yml/badge.svg)](https://github.com/MarkoMelle/Chat/actions/workflows/main.yml)
