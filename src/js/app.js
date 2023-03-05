@@ -10,5 +10,4 @@ document.addEventListener('DOMContentLoaded', () => {
   const chat = new Chat(document.querySelector('.chat-widget'), apiConnector, wsUrl);
   const loginForm = new LoginForm(loginContainer, chat, apiConnector);
   loginForm.init();
-  window.api = new ApiConnector(apiUrl);
 });
